@@ -1,0 +1,31 @@
+.taskcol {
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(172, 80, 4, 0.359);
+    border: 1px solid #ffd7bc;
+    background: #ffe5b8;
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}

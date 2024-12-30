@@ -1,0 +1,50 @@
+
+.delicon{
+   width:20px;
+}
+.text span{
+    color:rgb(246, 155, 18);
+    font-weight: 500;
+}
+.delete{
+    width:35px;
+    height: 35px;
+    border-radius:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.card-text{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:rgb(129, 13, 147)
+}
+.task-card {
+    width:80%;
+    min-height: 100px;
+    
+    border: 2px solid pink;
+    padding:25px;
+    margin:auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    
+    margin-bottom: 20px;
+    
+   
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+   
+}
+.task-card:hover {
+    transform: scale(1.02); 
+    box-shadow
+}
